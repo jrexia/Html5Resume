@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.loading-process {
+  width: 100%;
+}
+.loading-process #header {
+  width: 100%;
+  height: 760px;
+  background: url(../images/home-bg.jpg);
+}
+.loading-process #header .navFix {
+  background: #000;
+  position: fixed;
+  height: 80px!important;
+  line-height: 80px!important;
+  top: 0px;
+  left: 0;
+  padding-top: 0px;
+}
+.loading-process #header .nav-header {
+  width: 100%;
+  margin: 0 auto;
+  line-height: 160px;
+  height: 160px;
+  padding: 0px;
+}
+.loading-process #header .nav-header .nav {
+  margin: 0 auto;
+  width: 960px;
+  overflow: hidden;
+  position: relative;
+}
+.loading-process #header .nav-header .nav .fade {
+  float: left;
+  text-align: center;
+  padding: 0 66px;
+  font-size: 30px;
+}
+.loading-process #header .nav-header .nav .fade a {
+  color: #A3CFF2;
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+.loading-process #header .nav-header .nav .nav-works a {
+  color: #DDEFFD;
+}
+.loading-process #header .nav-header .nav .back-home .homeFix {
+  padding-top: 25px;
+}
+.loading-process #header .nav-header .nav .back-home a {
+  color: #DDEFFD;
+  padding-left: 0;
+  padding-top: 50px;
+  display: block;
+  height: 108px;
+  width: 108px;
+}
+.loading-process #header .nav-header .nav .back-home a .imgFix {
+  opacity: 1;
+}
+.loading-process #header .nav-header .nav .back-home a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: myfirst 1s ease 1;
+  /*调用已定义好的动画lefteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+  -webkit-animation: myfirst 1s ease 1;
+  -ms-animation: myfirst 1s ease 1;
+  -o-animation: myfirst 1s ease 1;
+  -moz-animation: myfirst 1s ease 1;
+}
+.loading-process #header .nav-header .nav .nav-skill {
+  padding-left: 15px;
+}
+.loading-process #header .nav-header .nav .nav-works {
+  padding-right: 15px;
+}
+.loading-process #header .fade-in {
+  padding: 0 0 20px;
+  clear: both;
+  width: 100%;
+  color: whitesmoke;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.loading-process #header .fade1 {
+  padding-top: 80px;
+  animation: Animatingtext 1.5s ease 1;
+  /*调用已定义好的动画lefteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+  -webkit-animation: Animatingtext 1.5s ease 1;
+  -ms-animation: Animatingtext 1.5s ease 1;
+  -o-animation: Animatingtext 1.5s ease 1;
+  -moz-animation: Animatingtext 1.5s ease 1;
+}
+.loading-process #header .fade2 {
+  animation: Animatingtext 2s ease 1;
+  /*调用已定义好的动画Animatingtext，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+  -webkit-animation: Animatingtext 2s ease 1;
+  -ms-animation: Animatingtext 2s ease 1;
+  -o-animation: Animatingtext 2s ease 1;
+  -moz-animation: Animatingtext 2s ease 1;
+}
+.loading-process #header .fade3 {
+  animation: Animatingtext 2.3s ease 1;
+  /*调用已定义好的动画Animatingtext，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+  -webkit-animation: Animatingtext 2.3s ease 1;
+  -ms-animation: Animatingtext 2.3s ease 1;
+  -o-animation: Animatingtext 2.3s ease 1;
+  -moz-animation: Animatingtext 2.3s ease 1;
+}
+.loading-process #header .btn-home {
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+}
+.loading-process #header .btn-home .img-btn {
+  display: block;
+  width: 110px;
+  height: 100px;
+  padding-top: 10px;
+  position: absolute;
+  clip: rect(0px, 46px, 59px, 0px);
+}
+.loading-process .about {
+  width: 100%;
+  background: url(../images/bg-tile.png);
+}
+.loading-process .about .section-about {
+  width: 100%;
+  height: 100%;
+}
+.loading-process .about .section-about .introl {
+  width: 960px;
+  height: 105px;
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 40px 10px 290px;
+  top: 163px;
+}
+.loading-process .about .section-about .introl .left-icon {
+  float: left;
+}
+.loading-process .about .section-about .introl .right-content {
+  padding-left: 60px;
+  padding-top: 30px;
+  display: block;
+  float: left;
+}
+.loading-process .about .section-about .introl .right1 {
+  animation: Animatingleft 1s ease 1;
+  /*调用已定义好的动画Animatingleft，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+  -webkit-animation: Animatingleft 1s ease 1;
+  -ms-animation: Animatingleft 1s ease 1;
+  -o-animation: Animatingleft 1s ease 1;
+  -moz-animation: Animatingleft 1s ease 1;
+}
+.loading-process .about .section-about .introl .right2 {
+  animation: Animatingleft 1s ease 0.1s 1;
+  /*调用已定义好的动画Animatingleft，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+  -webkit-animation: Animatingleft 1s ease 0.1s 1;
+  -ms-animation: Animatingleft 1s ease 0.1s 1;
+  -o-animation: Animatingleft 1s ease 0.1s 1;
+  -moz-animation: Animatingleft 1s ease 0.1s 1;
+}
+.loading-process .about .section-about .introl .right3 {
+  animation: Animatingleft 1s ease 0.2s 1;
+  /*调用已定义好的动画Animatingleft，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+  -webkit-animation: Animatingleft 1s ease 0.2s 1;
+  -ms-animation: Animatingleft 1s ease 0.2s 1;
+  -o-animation: Animatingleft 1s ease 0.2s 1;
+  -moz-animation: Animatingleft 1s ease 0.2s 1;
+}
+.loading-process .works {
+  width: 100%;
+  background: yellow;
+}
+.loading-process .works .section-works {
+  width: 100%;
+  height: 750px;
+}
+@keyframes myfirst {
+  from {
+    -webkit-transform: translateY(400px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-webkit-keyframes myfirst {
+  from {
+    -webkit-transform: translateY(400px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-o-keyframes myfirst {
+  0% {
+    -webkit-transform: translateY(400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-ms-keyframes myfirst {
+  0% {
+    -webkit-transform: translateY(400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-moz-keyframes myfirst {
+  0% {
+    -webkit-transform: translateY(400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@keyframes Animatingtext {
+  from {
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-webkit-keyframes Animatingtext {
+  from {
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-o-keyframes Animatingtext {
+  0% {
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-ms-keyframes Animatingtext {
+  0% {
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@-moz-keyframes Animatingtext {
+  0% {
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 0.8;
+  }
+}
+@keyframes Animatingleft {
+  from {
+    -webkit-transform: translateX(300px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+  }
+}
+@-webkit-keyframes Animatingleft {
+  from {
+    -webkit-transform: translateX(300px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+  }
+}
+@-o-keyframes Animatingleft {
+  from {
+    -webkit-transform: translateX(300px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+  }
+}
+@-ms-keyframes Animatingleft {
+  from {
+    -webkit-transform: translateX(300px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+  }
+}
+@-moz-keyframes Animatingleft {
+  from {
+    -webkit-transform: translateX(300px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+  }
+}
